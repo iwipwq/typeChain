@@ -2,10 +2,7 @@
   "name": "typechain",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
+  "scripts": {},
   "repository": {
     "type": "git",
     "url": "git+https://github.com/iwipwq/typeChain.git"
@@ -16,5 +13,8 @@
   "bugs": {
     "url": "https://github.com/iwipwq/typeChain/issues"
   },
-  "homepage": "https://github.com/iwipwq/typeChain#readme"
+  "homepage": "https://github.com/iwipwq/typeChain#readme",
+  "devDependencies": {
+    "typescript": "^4.6.4"
+  }
 }
