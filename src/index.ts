@@ -16,4 +16,8 @@ import { init, exit } from "myPackage";
 init({url:"true"})
 exit(1)
 
-import {초기화} from "./yourPackage.js"
+import { start, end } from "./yourPackage.js";
+
+start({debug:true,url:"true"})
+end(2)
+
